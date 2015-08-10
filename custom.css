@@ -1,0 +1,62 @@
+h1,h2 {
+  font-family:monospace;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+
+.social {
+ overflow: auto;
+}
+
+.social li {
+ list-style-type: none;
+ float: left;
+}
+ 
+ul li a i {
+ background: #205D7A;
+ color: #fff;
+ width: 40px;
+ height: 40px;
+ font-size: 25px;
+ text-align: center;
+ margin-right: 10px;
+ padding-top: 15%;
+}
+
+.fa-linkedin {
+ background:#007bb6
+}
+
+.fa-github {
+  background:#000000;
+}
+
+.fa-envelope {
+  background: #CC0000;
+}
+
+.fa-home {
+  background: green;
+}
+
+.fa-location-arrow {
+  background: #E6E600;
+}
+
+
