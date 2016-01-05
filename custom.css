@@ -133,3 +133,7 @@ span{
    position: relative;
    width: 100%; /* for IE 6 */
 }
+
+td {
+  padding-right: 15px;
+}
