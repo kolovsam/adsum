@@ -6,6 +6,7 @@ h1 {
   font-size: 48px;
 }
 
+
 h2 {
   font-size: 2vw;
 }
@@ -17,10 +18,29 @@ h3 {
 
 .row {
   padding-bottom: 20px;
+  padding-left: 50px;
 }
 
 ul {
   list-style-type: square;
+}
+
+.body {
+  padding-right:40px;
+  padding-top: 20px;
+}
+
+#menu {
+  background: #FF4D4D; 
+  color: #FFFFFF;
+}
+
+#menu:link {
+  color: #FFFFFF;
+}
+
+#menu:visited {
+  color: #FFFFFF;
 }
 
 a:link {
@@ -137,3 +157,6 @@ span{
 td {
   padding-right: 15px;
 }
+
+
+
