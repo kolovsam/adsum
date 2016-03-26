@@ -31,7 +31,7 @@ ul {
 }
 
 #menu {
-  background: #FF4D4D; 
+  background: #4b2e83; 
   color: #FFFFFF;
 }
 
@@ -44,11 +44,11 @@ ul {
 }
 
 a:link {
-  color: #FF4D4D;
+  color: #4b2e83;
 }
 
 a:visited {
-  color: #FF4D4D;
+  color: #4b2e83;
 }
 
 .social {
