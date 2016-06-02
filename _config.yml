@@ -1,0 +1,4 @@
+name: Samantha Kolovson
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
