@@ -28,6 +28,8 @@ ul {
 .body {
   padding-right:40px;
   padding-top: 20px;
+  font-size: 1.5vw;
+  font-family: "Courier New";
 }
 
 #menu {
