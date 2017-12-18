@@ -57,6 +57,14 @@ a:visited {
 .social {
  overflow: auto;
  width: 100%;
+ /*
+ Un-comment and change below
+ flow to 'right' to put social
+ links on top of the picture.
+ position: absolute;
+ top: 20%;
+ right: 1.5%;
+ */
 }
 
 .social li {
@@ -96,7 +104,7 @@ ul li a i {
 }
 
 .fa-phone {
-  background: orange;
+  background: green;
 }
 
 body{
