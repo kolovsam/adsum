@@ -34,24 +34,24 @@ ul {
 }
 
 #menu {
-  background: #4b2e83; 
-  color: #FFFFFF;
+  background: #0a2172; 
+  color: #b98200;
 }
 
 #menu:link {
-  color: #FFFFFF;
+  color: #b98200;
 }
 
 #menu:visited {
-  color: #FFFFFF;
+  color: #b98200;
 }
 
 a:link {
-  color: #b7a57a;
+  color: red;
 }
 
 a:visited {
-  color: #b7a57a;
+  color: red;
 }
 
 .social {
@@ -84,7 +84,7 @@ ul li a i {
  padding-top: 15%;
 
  /* color of social buttons */
- background: #b7a57a;
+ background: #b98200;
 }
 
 /*
@@ -119,22 +119,24 @@ body{
 }
 
 p{
-  color: white;
-  font-family: "Courier New";
+  background: #0a2172;
+  color: #b98200;
+  /*-webkit-text-stroke: 0.5px white;*/
+  font-family: monospace;
   font-size: 3vw;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
-  animation: type 4s steps(60, end);
+  animation: type 2s steps(60, end);
   position: absolute;
   left: 1.5%;
   top: 20%;
-  width: 100%;
+  width: 35%;
 }
 
 p:nth-child(2){
-  animation: type2 8s steps(60, end);
+  animation: type2 4s steps(60, end);
 }
 
 p a{
