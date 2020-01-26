@@ -2,14 +2,15 @@
 layout: default
 title: SK - Blog
 ---
-<div class="body">
-<div class="row">
+<div class="content">
+
 <h2>Blog</h2>
+
 	<ul class="posts">
 
 	  {% for post in site.posts %}
 	    <li><h3>{{ post.date | date_to_long_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li>
 	  {% endfor %}
 	</ul>
-</div>
+
 </div>

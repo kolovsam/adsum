@@ -42,68 +42,62 @@
 <title>{{ page.title }}</title>
 
 <body>
-<div class="himage">
 
-{% if page.title == "SK" %}
-<img src="/images/connecticut_bw.JPG" class="img-responsive">
-{% else %}
-<img src="/images/connecticut_bw_small.JPG" class="img-responsive">
-{% endif %}
+  <div class="container">
 
-<a href="/"><p>> Samantha Kolovson</p></a>
-
-
-</div><!-- end header image -->
-
-<div class="row" id="menu">
-<table>
-  <tr>
-  <td>
-        <!-- colorful button links-->
-      <ul class="social"><h2>
-          <li><a href="mailto:kolovson@uw.edu"><i class="fa fa-envelope"></i></a></li>
-          <!--li><a href="tel:508-259-0492"><i class="fa fa-phone"></i></a></li-->
-          <li><a href="http://github.com/kolovsam"><i class="fa fa-github"></i></a></li>
-          <li><a href="https://www.instagram.com/piledhighanddry/"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://twitter.com/piledhighanddry"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="http://linkedin.com/in/kolovsam"><i class="fa fa-linkedin"></i></a></li>
-          <!--li><a href="https://maps.google.com?daddr=Wayland+MA+01778"><i class="fa fa-home"></i></a></li>
-          <li><a href="https://maps.google.com?daddr=Amherst+MA+01002"><i class="fa
-            fa-location-arrow"></i></a></li-->
-            </h2>
-      </ul>
-      </td>
-    <!-- end colorful button links-->
-    <!-- menu items -->
-    <td style="padding-right:20px;"><h2 id="menu">|</h2></td>
+    <div class="row justify-content-center">
     
-    <td style="padding-right:20px;"><a id="menu" href="/publications"><h2>Publications</h2></a></td>
+      <div class="col-md-3" id="left-col"><!-- LEFT COL -->
+        <div><!--Header Image-->
+          <img src="/images/me-fire.JPG" class="img-fluid">
+          <!-- {% if page.title == "SK" %}
+          <img src="/images/connecticut_bw.JPG" class="img-responsive">
+          {% else %}
+          <img src="/images/connecticut_bw_small.JPG" class="img-responsive">
+          {% endif %} -->
 
-    <td style="padding-right:20px;"><h2 id="menu">|</h2></td>
-    
-    <td style="padding-right:20px;"><a id="menu" href="/teaching"><h2>Teaching</h2></a></td>
+          <!-- <a href="/"><p>> Samantha Kolovson</p></a> -->
+        </div><!--End Header Image-->
 
-    <td style="padding-right:20px;"><h2 id="menu">|</h2></td>
-    
-    <td style="padding-right:20px;"><a id="menu" href="/projects"><h2>Projects</h2></a></td>
+        <div id="my-name"><!--My Name-->
+          <h1><a id="my-name" href="/">Sam Kolovson</a></h1>
+        </div><!--End Name-->
+          
+        <ul style="list-style-type: none;" id="menu"><!-- MENU -->
+          <h2>
+            <li><a id="menu" href="/publications"><h2>Publications</h2></a></li>
+            <li><a id="menu" href="/teaching"><h2>Teaching</h2></a></li>
+            <li><a id="menu" href="/projects"><h2>Projects</h2></a></li>
+            <li><a id="menu" href="/cv"><h2>CV</h2></a></li>
+            <li><a id="menu" href="/me"><h2>About Me</h2></a></li>
+            <li><a id="menu" href="/blog"><h2>Blog</h2></a></li>
+          </h2>
+        </ul><!-- End MENU -->
 
-    <td style="padding-right:20px;"><h2 id="menu">|</h2></td>
+        <ul class="social"><!-- SOCIAL LINKS -->
+          <h2>
+            <li><a href="mailto:kolovson@uw.edu"><i class="fa fa-envelope"></i></a></li>
+            <!--li><a href="tel:508-259-0492"><i class="fa fa-phone"></i></a></li-->
+            <li><a href="http://github.com/kolovsam"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/piledhighanddry/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/piledhighanddry"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://linkedin.com/in/kolovsam"><i class="fa fa-linkedin"></i></a></li>
+            <!--li><a href="https://maps.google.com?daddr=Wayland+MA+01778"><i class="fa fa-home"></i></a></li>
+            <li><a href="https://maps.google.com?daddr=Amherst+MA+01002"><i class="fa
+              fa-location-arrow"></i></a></li-->
+          </h2>
+        </ul>
+            
+      </div><!-- end LEFT COL -->
 
-    <td style="padding-right:20px;"><a id="menu" href="/cv"><h2>CV</h2></a></td>
+      <div class="col-md-6" style="border-top:10px solid #0a2172;"><!-- RIGHT COL -->
+        {{ content }}
+      </div> <!--end RIGHT COL-->
     
-    <td style="padding-right:20px;"><h2 id="menu">|</h2></td>
-    
-    <!--<td style="padding-right:30px;"><a id="menu" href="/me"><h2>> Me</h2></a></td>
-    
-    <td style="padding-right:30px;"><h2 id="menu">|</h2></td>-->
-    
-    <td style="padding-right:20px;"><a id="menu" href="/blog"><h2>Blog</h2></a></td>
+    </div> <!--end row-->
 
-  </tr>
-</table>
-</div><!-- end nav row -->
-
-{{ content }}
+  </div> <!--end container-->
 
 </body>
+
 </html>

@@ -3,47 +3,54 @@ h1,h2 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 
 h2 {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 24px;
-  font-family: "Courier New";
-}
-
-.row {
-  padding-bottom: 20px;
-  padding-left: 10px;
-}
-
-ul {
-  list-style-type: square;
-}
-
-.body {
-  padding-right:40px;
-  padding-top: 20px;
-  padding-left: 50px;
   font-size: 20px;
   font-family: "Courier New";
 }
 
+ul {
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+
+.content {
+  font-size: 16px;
+  font-family: "Courier New";
+  padding-top: 10px;
+}
+
+#blurbs {
+  padding-top: 20px;
+}
+
 #menu {
+  background: #b98200 ;
+  color: red;
+  padding-top: 10px;
+  border-bottom: 5px solid red;
+  border-top: 5px solid red;
+}
+
+#left-col {
   background: #0a2172;
-  color: #b98200;
+  padding: 0px;
+  border-top:10px solid #0a2172;
 }
 
 #menu:link {
-  color: #b98200;
+  color: white;
 }
 
 #menu:visited {
-  color: #b98200;
+  color: white;
 }
 
 a:link {
@@ -52,11 +59,27 @@ a:link {
 
 a:visited {
   color: red;
+
+}
+
+#my-name {
+  background: #0a2172;
+  padding-left:10px; 
+  padding-top:10px;
+}
+
+#my-name:link {
+  color: #b98200;
+}
+
+#my-name:visited {
+  color: #b98200;
 }
 
 .social {
  overflow: auto;
  width: 100%;
+ background: #0a2172;
  /*
  Un-comment and change below
  flow to 'right' to put social
@@ -74,14 +97,15 @@ a:visited {
 }
 
 ul li a i {
- background: #205D7A;
+ background: #b98200;
  color: white;
- width: 3vw;
- height: 3vw;
- font-size: 24px;
+ width: 32px;
+ height: 32px;
+ font-size: 20px;
  text-align: center;
- margin-right: 10px;
- padding-top: 15%;
+ margin-right: 5px;
+ padding-top: 10%;
+
 
  /* color of social buttons */
  background: #b98200;
@@ -114,9 +138,7 @@ ul li a i {
   background: green;
 }
 */
-body{
-  padding-top: 10px;
-}
+
 
 p{
   background: #0a2172;
@@ -169,6 +191,7 @@ span{
 .himage {
    position: relative;
    width: 100%; /* for IE 6 */
+   padding: 0px;
 }
 
 td {
