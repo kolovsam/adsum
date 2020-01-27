@@ -32,17 +32,19 @@ ul {
 }
 
 #menu {
-  background: #b98200 ;
+  background: #bd2130;
+  /* background: #FF5722; */
   color: red;
   padding-top: 10px;
-  border-bottom: 5px solid red;
-  border-top: 5px solid red;
+  /* border-bottom: 5px solid red;
+  border-top: 5px solid red; */
 }
 
 #left-col {
-  background: #0a2172;
+  background: #bd2130;
+  /* background: #FF5722; */
   padding: 0px;
-  border-top:10px solid #0a2172;
+  border-top:10px solid #bd2130;
 }
 
 #menu:link {
@@ -55,31 +57,35 @@ ul {
 
 a:link {
   color: red;
+  /* color: #FF5722; */
 }
 
 a:visited {
   color: red;
+  /* color: #FF5722; */
 
 }
 
 #my-name {
-  background: #0a2172;
+  background: #bd2130;
+  /* background: #FF5722; */
   padding-left:10px; 
   padding-top:10px;
 }
 
 #my-name:link {
-  color: #b98200;
+  color: white;
 }
 
 #my-name:visited {
-  color: #b98200;
+  color: white;
 }
 
 .social {
  overflow: auto;
  width: 100%;
- background: #0a2172;
+ background: #bd2130;
+ /* background: #FF5722; */
  /*
  Un-comment and change below
  flow to 'right' to put social
@@ -97,8 +103,9 @@ a:visited {
 }
 
 ul li a i {
- background: #b98200;
- color: white;
+ background: white;
+ color: #bd2130;
+ /* color: #FF5722; */
  width: 32px;
  height: 32px;
  font-size: 20px;
@@ -108,7 +115,6 @@ ul li a i {
 
 
  /* color of social buttons */
- background: #b98200;
 }
 
 /*
