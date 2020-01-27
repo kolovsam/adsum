@@ -191,7 +191,8 @@ span{
 }
 
 ::selection{
-  background: black;
+  /* This does the text highlight, like if you click and drag over words */
+  background: #ffd622;
 }
 
 .himage {
