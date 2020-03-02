@@ -40,6 +40,25 @@
   <!-- strawberry favicon in page title -->
   <link rel="shortcut icon" href="/images/strawberry-icon.png"/>
 
+  <script>
+    // function changeHimage()
+    // {
+    //   document.getElementById("himage").src = "images/" + getRandomImage();
+    // }
+
+    //JQuery
+      $(document).ready(function(){
+        $("#himage").attr("src", "images/" + getRandomImage());
+      });
+
+    function getRandomImage() {
+      var images = ["me-fire.jpg","uw-me-row.jpg", "uw-me-hold-oar.jpg", "uw-me-hold-boat.jpg"];
+    
+      return images[Math.floor(Math.random() * images.length)];
+    }
+
+</script>
+
 </head>
 <title>{{ page.title }}</title>
 
@@ -51,7 +70,10 @@
     
       <div class="col-md-3" id="left-col"><!-- LEFT COL -->
         <div><!--Header Image-->
-          <img src="/images/me-fire.JPG" class="img-fluid">
+
+          <!-- <img src="/images/me-fire.JPG" class="img-fluid"> -->
+          <!-- <img src="/images/uw-me-row.JPG" class="img-fluid"> -->
+          <img id="himage" src="images/blank.png" alt="Randomly generated photo of Sam Kolovson. Photos by Mark Stone/University of Washington or edited by Rob Schilke." class="img-fluid">
           <!-- {% if page.title == "SK" %}
           <img src="/images/connecticut_bw.JPG" class="img-responsive">
           {% else %}
