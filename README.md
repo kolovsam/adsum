@@ -1,3 +1,6 @@
+#### January 25th, 2020
+Post-generals I did the site overhaul / facelift that I wanted to do at the end of December (but had to focus on making my GROUP presentation instead). Still can't figure out why my PDFs are not viewable on mobile. You can see the first page all squished but can't scroll, zoom, or really read anything. Checked code from others websites and it's the same...so I just linked the GROUP paper for mobile to Sean's site...
+
 #### December 26th, 2019
 Updates this week remind me of dark and cozy winter days in Triangle Street when I spent a something like several days to a whole week on the couch binge watching some show (Big Bang? HIMYM?) tearing down my original one page resume website design for the current one. Pretty sure that was Nov or Dec 2015. Now it was time for a different type of big update: adding my first paper on my own work to the website! Of course, in doing my first real update to the website in maybe a year, I ran into my very out of date and messed up workflow...I got jekyll working very crudely, I switched to using VS Code instead of Sublime, I will now use github issues to keep track of todos for the site, and I have decided that at the next opportunity the site needs another facelift (which should be hella easy this time because all I'll have to do is work on the default layout file! Hallelujah!).
 
