@@ -4,13 +4,32 @@ title: SK - Blog
 ---
 <div class="content">
 
-<h2>Blog</h2>
+	<h2>Blog</h2>
 
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><h3>{{ post.date | date_to_long_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li>
-	  {% endfor %}
-	</ul>
 
+	<div class="row row-cols-1 row-cols-md-2">
+
+		{% for post in site.posts %}
+		<div class="col mb-4">
+			<div class="card mb-3">
+				<!-- <div class="card-header">
+            DATE
+        </div> -->
+				<img src="{{post.img}}" class="card-img-top" alt="...">
+
+				<div class="card-body">
+					<h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+					<p class="card-text">
+						{{ post.date | date_to_long_string }}
+					</p>
+					<!-- <a href="#" class="btn btn-secondary" id="wlink">Follow UWCiP</a> -->
+				</div>
+
+			</div>
+		</div>
+
+		<!-- <li><h3>{{ post.date | date_to_long_string }} » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3></li> -->
+		{% endfor %}
+	</div>
 </div>
