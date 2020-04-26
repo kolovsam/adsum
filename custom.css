@@ -55,6 +55,14 @@ ul {
   color: white;
 }
 
+#wlink:link {
+  color: white;
+}
+
+#wlink:visited {
+  color: white;
+}
+
 a:link {
   color: red;
   /* color: #FF5722; */
@@ -146,7 +154,7 @@ ul li a i {
 */
 
 
-p{
+/* p{
   background: #0a2172;
   color: #b98200;
   /*-webkit-text-stroke: 0.5px white;*/
@@ -161,11 +169,11 @@ p{
   left: 1.5%;
   top: 20%;
   width: 35%;
-}
+} */
 
-p:nth-child(2){
+/* p:nth-child(2){
   animation: type2 4s steps(60, end);
-}
+} */
 
 p a{
   color: white;
