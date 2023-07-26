@@ -1,11 +1,15 @@
-#### January 25th, 2020
-Post-generals I did the site overhaul / facelift that I wanted to do at the end of December (but had to focus on making my GROUP presentation instead). Still can't figure out why my PDFs are not viewable on mobile. You can see the first page all squished but can't scroll, zoom, or really read anything. Checked code from others websites and it's the same...so I just linked the GROUP paper for mobile to Sean's site...
+# Welcome
+This repo is for my personal website: kolovsam.com
 
-#### December 26th, 2019
-Updates this week remind me of dark and cozy winter days in Triangle Street when I spent a something like several days to a whole week on the couch binge watching some show (Big Bang? HIMYM?) tearing down my original one page resume website design for the current one. Pretty sure that was Nov or Dec 2015. Now it was time for a different type of big update: adding my first paper on my own work to the website! Of course, in doing my first real update to the website in maybe a year, I ran into my very out of date and messed up workflow...I got jekyll working very crudely, I switched to using VS Code instead of Sublime, I will now use github issues to keep track of todos for the site, and I have decided that at the next opportunity the site needs another facelift (which should be hella easy this time because all I'll have to do is work on the default layout file! Hallelujah!).
+# How I built the site
+The site is built entirely by me using the technical skills I learned from my first job at UMass IT (mostly Git, Googling skills, and sifting through StackOverflow). Full history is in the Wiki.
 
-#### March 23rd, 2018
-Seems like after two years I should probably update this. The additional content and major "refactoring" (via templates) mentioned two years ago was done sometime in the first half of 2016. Jekyll is easily available for github sites and so I used that to create templates for the sites. This made it much easier to make changes to the site without having to update the HTML in many places. Jekyll also makes it easy to curate a blog which I started for the various trips I took in summer of 2016. Since then the site has had only minor updates such as adding new pages to display publications and galleries of student work from the classes I have TA-ed. This week I have been making some larger changes such as the color scheme (I decided UW colors didn't look right), adding missing information and updating old information. 
+And though it may not be fancy, I am proud to keep maintaining it myself.
 
-#### March 7th, 2016
-Very much under construction. Needs additional content and major refactoring/templating.
+# What I used to build the site
+- HTML and CSS. 
+- Bootstrap 5 for most of the CSS.
+- Jekyll for templating. I also used to use this for a blog.
+- Font Awesome for the social icons.
+- Notion for my blog. Though this is not technical, I found that structuring my posts in HTML and CSS was tedious and so writing on Notion is pleasant and makes it easy to maintain.
+- Google Docs for my resume and CV. At some point I realized it was silly to go through the step of downloading a PDF of my resume, moving it to my webiste docs folder, moving the old resume to an archive folder, and pushing that change to GitHub. Now I can update my resume or CV at any time and it is accesible and download-able through GDocs. 
