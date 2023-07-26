@@ -2,7 +2,7 @@
 This repo is for my personal website: kolovsam.com
 
 # How I built the site
-The site is built entirely by me using the laughably minimal technical skills I picked up from my CS degree, the actual technical skills I learned from my first job at UMass IT, and my Googling skills mostly picked up from my UMass IT job where I figured out that pretty much any issue is addressed on StackOverflow and the internet has great information about how to create a website from scratch. 
+The site is built entirely by me using the technical skills I learned from my first job at UMass IT (mostly Git, Googling skills, and sifting through StackOverflow). Full history is in the Wiki.
 
 And though it may not be fancy, I am proud to keep maintaining it myself.
 
