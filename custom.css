@@ -71,12 +71,12 @@ ul {
 }
 
 a:link {
-  color: #005249;
+  color: #9E3100;
   /* color: #FF5722; */
 }
 
 a:visited {
-  color: #005249;
+  color: #9E3100;
   /* color: #FF5722; */
 
 }
@@ -226,6 +226,9 @@ td {
 
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #005249 !important;
-  border-color: #005249;
+  /* background-color: #005249 !important;
+  border-color: #005249; */
+  background-color: #9E3100 !important;
+  border-color: #9E3100;
+  
 }
