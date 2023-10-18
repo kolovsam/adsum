@@ -1,25 +1,25 @@
-h1,h2 {
-  font-family:monospace;
-}
-
 h1 {
   font-size: 32px;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bold;
 }
 
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 20px;
-  font-family: "Courier New";
-  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Livvic', sans-serif;
+  font-weight: thin;
 }
 
 h4 {
   font-size: 16px;
-  font-family: "Courier New";
+  font-family: 'Livvic', sans-serif;
   font-style: italic;
 }
 
@@ -30,7 +30,7 @@ ul {
 
 .content {
   font-size: 16px;
-  font-family: "Helvetica Neue";
+  font-family: 'Livvic', sans-serif;
   padding-top: 10px;
 }
 
@@ -42,10 +42,18 @@ ul {
   background: #005249;
   /* background: #FF5722; */
   color: #005249;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   /* border-bottom: 5px solid red;
   border-top: 5px solid red; */
 }
+
+.navbar {
+  background-color: #005249;
+  font-family: 'Livvic', sans-serif;
+  
+
+}
+
 
 #left-col {
   background: #005249;
@@ -56,6 +64,7 @@ ul {
 
 #menu:link {
   color: white;
+  
 }
 
 #menu:visited {
@@ -82,9 +91,9 @@ a:visited {
 }
 
 #my-name {
-  background: #005249;
+  /* background: #005249; */
   /* background: #FF5722; */
-  padding-left:10px; 
+  padding-left:8px; 
   padding-top:10px;
 }
 
